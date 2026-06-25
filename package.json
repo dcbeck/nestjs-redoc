@@ -22,17 +22,16 @@
     "sample": "ts-node ./sample/main"
   },
   "peerDependencies": {
-    "@nestjs/common": "^11.1.0",
-    "@nestjs/core": "^11.1.0",
-    "@nestjs/swagger": "^11.1.0",
+    "@nestjs/common": "^11.1.27",
+    "@nestjs/core": "^11.1.27",
+    "@nestjs/swagger": "^11.4.4",
     "reflect-metadata": "^0.1.12"
   },
   "dependencies": {
-    "@hapi/joi": "^17.1.1",
-    "@nestjs/common": "^11.1.9",
-    "@nestjs/swagger": "^11.2.3",
+    "@nestjs/common": "^11.1.27",
+    "@nestjs/swagger": "^11.4.4",
     "express-basic-auth": "^1.2.1",
-    "express-handlebars": "^8.0.4"
+    "express-handlebars": "^9.0.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^20.2.0",
@@ -43,7 +42,6 @@
     "@nestjs/testing": "^11.1.9",
     "@types/express": "^5.0.6",
     "@types/express-handlebars": "^6.0.2",
-    "@types/hapi__joi": "^17.1.15",
     "@types/jest": "^30.0.0",
     "@types/node": "^24.10.1",
     "@types/supertest": "^6.0.3",
@@ -69,5 +67,8 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "files": ["dist", "views"]
+  "files": [
+    "dist",
+    "views"
+  ]
 }

@@ -43,6 +43,6 @@ async function bootstrap() {
     ],
   };
   await RedocModule.setup('docs', app, document, redocOptions);
-  await app.listen(8000);
+  await app.listen(8001);
 }
 bootstrap();

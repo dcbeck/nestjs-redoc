@@ -76,6 +76,6 @@ export class CatsController {
     return this.catsService.create(createCatDto);
   }
 
-  @Get('site*')
+  @Get('site/*path')
   getSite() {}
 }
