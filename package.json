@@ -1,6 +1,6 @@
 {
   "name": "@clamparion/nestjs-redoc",
-  "version": "11.2.0",
+  "version": "11.3.0",
   "description": "NestJS ReDoc frontend",
   "repository": "https://github.com/dcbeck/nestjs-redoc",
   "author": "Alfonso Reyes",
